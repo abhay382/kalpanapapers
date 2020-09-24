@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".restFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="156dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="112dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="248dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:text="dont worry write your email"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="#F44336"
+            app:layout_constraintHorizontal_bias="0.439"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="274dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="68dp"
+            android:text="Fill email see your inbox"
+            android:textColor="@android:color/holo_red_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <EditText
+            android:id="@+id/sign_in_forgot_password"
+            android:layout_width="334dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:hint="Email ID"
+            android:textColorHint="#B31500"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        <Button
+            android:id="@+id/reset_pass"
+            android:layout_width="210dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="68dp"
+            android:background="@color/btnRed"
+            android:text="reset password"
+            android:textColor="#B30024"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.547"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_in_forgot_password" />
+
+        <TextView
+            android:id="@+id/backbro"
+            android:layout_width="144dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="68dp"
+            android:text="GO BACK"
+            android:textColor="@android:color/holo_red_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.621"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reset_pass" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

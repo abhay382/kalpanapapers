@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signinFragment"
+    android:background="@android:color/background_light">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/sign_up_close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:padding="8dp"
+            android:src="@mipmap/cross"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="233dp"
+            android:layout_height="243dp"
+            android:layout_marginTop="120dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/sign_in_email"
+            android:layout_width="367dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:ems="10"
+            android:hint="Email ID"
+            android:textColor="@color/btnRed"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@android:color/holo_red_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <EditText
+            android:id="@+id/sign_in_password"
+            android:layout_width="366dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:ems="10"
+            android:hint="password"
+            android:textColor="@color/btnRed"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/holo_red_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_in_email" />
+
+        <TextView
+            android:id="@+id/sign_in_forgot_password"
+            android:layout_width="117dp"
+            android:layout_height="32dp"
+            android:text="forgot password?"
+            android:textColor="@android:color/holo_red_dark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.074"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_in_password"
+            app:layout_constraintVertical_bias="0.067" />
+
+        <Button
+            android:id="@+id/sign_up_btn"
+            android:layout_width="261dp"
+            android:layout_height="47dp"
+            android:layout_marginBottom="120dp"
+            android:background="@color/btnRed"
+            android:text="Sign In"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="#E91E63"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_in_forgot_password"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="60dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="16dp"
+            android:text="OR"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_red_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.541"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_up_btn" />
+
+        <TextView
+            android:id="@+id/sign_already_account"
+            android:layout_width="244dp"
+            android:layout_height="65dp"
+            android:text="Dont have an account?Sign In"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_red_dark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.565"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.578" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="246dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="224dp"
+            android:text="Welcome To Kalpanapapers World"
+            android:textAllCaps="false"
+            android:textColor="#00CC03"
+            app:layout_constraintBottom_toTopOf="@+id/sign_in_email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+
+
+
+
+
+

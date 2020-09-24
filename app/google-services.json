@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "249469100034",
+    "firebase_url": "https://kalpanapapers-693f1.firebaseio.com",
+    "project_id": "kalpanapapers-693f1",
+    "storage_bucket": "kalpanapapers-693f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249469100034:android:b788ec6fe9e6766172c71b",
+        "android_client_info": {
+          "package_name": "com.example.kalpanapapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249469100034-khtj8vom38usbfl8e8j0nnmcgn8nhsi8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7KMoMTNvQgloDGSytMuDpPTKZsAInTQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249469100034-khtj8vom38usbfl8e8j0nnmcgn8nhsi8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
